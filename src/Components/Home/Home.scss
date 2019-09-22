@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  background: #6699cc
+}
+
+.home-pic {
+  height: 100vh;
+  background-image: linear-gradient(to top right,rgba(0, 0, 255, 0.4), #d3d3d3), url(./guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
+  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: left 25% bottom 40%;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%)
+}
+
+.name-box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-text  {
+  color: #3F000F;
+  font-size: 75px;
+  animation: fadingIn 2s ease-in;
+}
+
+@keyframes fadingIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.pText {
+  color:#3F000F;
+  font-size: 25px;
+  padding: 25px;
+  animation: fadingIn 2s ease-in;
+}
+
+.portfolio {
+  margin-top: 50px;
+}
+
+.portfolio img {
+  height: 300px;
+  width: 400px;
+  border-radius: 50%;
+  border: #3F000F 3px solid;
+  animation: fadingIn 2s ease-in;
+  background-size: center;
+}
+
+
+// About me section
+

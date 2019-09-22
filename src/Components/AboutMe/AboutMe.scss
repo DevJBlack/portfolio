@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+}
+
+.AboutMe {
+ background: #6699cc;
+ height: 75vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%)
+}
+
+.aboutTitle {
+  // margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me {
+  height: 100%;
+  width: 50%;
+  color: #fffdd0;
+  font-size: 18px;
+}
+
+.aboutTitle h1 {
+  text-decoration: underline #3F000F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3F000F;
+  font-size: 30px;
+  padding: 5px;
+}
