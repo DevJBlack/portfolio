@@ -10,19 +10,19 @@ import redux from '../Assests/redux.png'
 
 const Skills = () => {
   return (
-    <div>
-      <div className='title'>
-        <h1>Skills</h1>
-      </div>
-      <div>
-        <img width='100' src={javascript} alt='javascript'/>
-        <img width='100' src={html5} alt='html5'/>
-        <img width='100' src={css} alt='css'/>
-        <img width='100' src={react} alt='react'/>
-        <img width='100' src={redux} alt='redux'/>
-        <img width='100' src={node} alt='node'/>
-        <img width='100' src={postman} alt='postman'/>    
-      </div>
+    <div className='skillsHome'>
+        <div className='title'>
+          <h1>Skills</h1>
+        </div>
+        <div className='imageBox'>
+          <img width='100' src={javascript} alt='javascript'/>
+          <img width='100' src={html5} alt='html5'/>
+          <img width='100' src={css} alt='css'/>
+          <img width='100' src={react} alt='react'/>
+          <img width='100' src={redux} alt='redux'/>
+          <img width='100' src={node} alt='node'/>
+          <img width='100' src={postman} alt='postman'/>    
+        </div>
     </div>
   )
 }

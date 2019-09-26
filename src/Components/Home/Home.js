@@ -1,5 +1,5 @@
 import React from 'react'
-import closeUp from '../Assests/closeUp.jpg'
+import editedColor from '../Assests/editedColor.jpg'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
 import './Home.scss'
@@ -12,7 +12,7 @@ const Home = () => {
           <h1 className='name-text'> Devin Black</h1>
           <p className='pText'>Front-End Developer</p>
           <div className='portfolio'>
-            <img src={closeUp} alt='dev' />
+            <img src={editedColor} alt='dev' />
           </div>
         </div>
       </div>

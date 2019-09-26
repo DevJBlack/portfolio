@@ -4,6 +4,33 @@
   box-sizing: border-box;
 }
 
-body, html {
+
+.skillsHome {
   width: 100vw;
+  height: 50vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #001c57;
+  text-decoration: underline #001c57;
+} 
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageBox img {
+  margin: 35px;
+  flex-wrap: wrap;
 }
