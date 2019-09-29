@@ -2,12 +2,14 @@ import React from 'react'
 import editedColor from '../Assests/editedColor.jpg'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
+import NavBar from '../NavBar/NavBar'
 import './Home.scss'
 
 const Home = () => {
   return (
     <div>
       <div className='home-pic'>
+        <NavBar/>
         <div className='name-box'>
           <h1 className='name-text'> Devin Black</h1>
           <p className='pText'>Front-End Developer</p>
@@ -17,10 +19,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='aboutMe'>
+      <div className='aboutMe' id='Me'>
         <AboutMe/>
       </div>
-      <div className='skills'>
+      <div className='skills' id='Skills'>
         <Skills/>
       </div>
         

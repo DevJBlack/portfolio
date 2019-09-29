@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 2000px;
-}
 
 #skills  {
   height: ease;
@@ -16,10 +13,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: crimson;
+  background: transparent;
   height: 10vh;
-  position: sticky;
-  width: 25vw;
+  position: fixed;
+  width: 100vw;
 }
 
  nav a {
@@ -44,9 +41,7 @@ h2 a:hover {
   padding: 10px;
 }
 
-.target {
-  margin-top: 1000px;
-}
+
 
 
 

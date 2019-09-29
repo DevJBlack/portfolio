@@ -15,13 +15,34 @@ const Skills = () => {
           <h1>Skills</h1>
         </div>
         <div className='imageBox'>
-          <img width='100' src={javascript} alt='javascript'/>
-          <img width='100' src={html5} alt='html5'/>
-          <img width='100' src={css} alt='css'/>
-          <img width='100' src={react} alt='react'/>
-          <img width='100' src={redux} alt='redux'/>
-          <img width='100' src={node} alt='node'/>
-          <img width='100' src={postman} alt='postman'/>    
+          <div className='imgBox javascript'>
+            <p>Javascript</p>
+            <img width='100' src={javascript} alt='javascript'/>
+          </div>
+          <div className='html'>
+            <p>HTML</p>
+            <img width='100' src={html5} alt='html5'/>
+          </div>
+          <div className='css'>
+            <p>CSS</p>
+            <img width='100' src={css} alt='css'/>
+          </div>
+          <div className='react'>
+            <p>React</p>
+            <img width='100' src={react} alt='react'/>
+          </div>
+          <div className='redux'>
+            <p>Redux</p>
+            <img width='100' src={redux} alt='redux'/>
+          </div>
+          <div className='node'>
+            <p>Node</p>
+            <img width='100' src={node} alt='node'/>
+          </div>
+          <div className='postman'>
+            <p>Postman</p>
+            <img width='100' src={postman} alt='postman'/>    
+          </div>
         </div>
     </div>
   )
