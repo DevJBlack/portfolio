@@ -39,8 +39,21 @@ body {
   align-items: center;
   z-index: 5;
   flex-direction: column;
-  // margin: 500px;
+  margin: 500px;
+    .closeTab {
+      color: white;
+      font-size: 25px;
+      width: 100%;
+      margin-right: 65px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    & .closeTab:hover{
+      color:black;
+    }
 }
+
+
 .menu {
   display: flex;
   justify-content: center;
@@ -56,10 +69,10 @@ body {
    list-style: none;
    text-decoration: none;
    color: black;
-  }
-
-  nav a:hover {
-    color: white;
+   
+    nav a:hover {
+     color: white;
+    }
   }
   
   h2 a {
