@@ -31,15 +31,19 @@ body {
   display: none;
 }
 .menuPage{
-  width: 25vw;
-  height: 25vh;
-  background: rgba(255,255,255,.5);
+  width: 50vw;
+  height: 35vh;
+  border-radius: 50px;
+  background: rgba(255,255,255,.5) !important;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 5;
   flex-direction: column;
-  margin: 500px;
+  position: absolute;
+  top: 225px;
+  right: 25%;
+  z-index:  !important;
     .closeTab {
       color: white;
       font-size: 25px;
@@ -59,28 +63,24 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90%;
-  height: 90%;
-  background: blue;
-
+  width: 75%;
+  height: 75%;
+  border-radius: 50px;
+  background: rgb(95, 95, 255) !important;
+  z-index: !important
 }
 
  nav a {
    list-style: none;
    text-decoration: none;
-   color: black;
-   
-    nav a:hover {
-     color: white;
-    }
+   color: #001c57;
+   margin: 10px;
+   font-size: 20px;
   }
   
-  h2 a {
-  list-style: none;
-  text-decoration: none;
-  color: black;
-
-}
+  nav a:hover {
+   color: white;
+  }
 
 
 

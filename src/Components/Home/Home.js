@@ -7,7 +7,7 @@ import './Home.scss'
 
 const Home = () => {
   return (
-    <div>
+    <div id='Home'>
       <div className='home-pic'>
         <NavBar/>
         <div className='name-box'>

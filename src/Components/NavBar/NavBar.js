@@ -27,8 +27,9 @@ const NavBar = () => {
         <div className='menuPage'>
             <label className='closeTab' onClick={() => displayEdit(true)}>X</label>
           <div className='menu'>
-            <AnchorLink offset='10'href='#Me'><p id='skills'>About Me</p></AnchorLink>
-            <AnchorLink offset='10'href='#Skills'><p id='skills'>Skills</p></AnchorLink>
+            <AnchorLink onClick={() => displayEdit(true)} href='#Home'><p id='skills'>Home</p></AnchorLink>
+            <AnchorLink onClick={() => displayEdit(true)} href='#Me'><p id='skills'>About Me</p></AnchorLink>
+            <AnchorLink onClick={() => displayEdit(true)} href='#Skills'><p id='skills'>Skills</p></AnchorLink>
           </div>
         </div>
       }
