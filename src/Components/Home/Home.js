@@ -3,6 +3,7 @@ import editedColor from '../Assests/editedColor.jpg'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
 import NavBar from '../NavBar/NavBar'
+import Projects from '../Projects/Projects'
 import './Home.scss'
 
 const Home = () => {
@@ -25,22 +26,12 @@ const Home = () => {
       <div className='skills' id='Skills'>
         <Skills/>
       </div>
+      <div className='projects' id='Projects'>
+        <Projects/>
+      </div>
         
     </div>
   )
 }
 
 export default Home
-
-// Going to have landing page, about me, skills, and Contact Info all on this page to view and display.
-// But we will have all of the sections in the menu, but the only section that will go to a new a page will be projects, we will add animations to that page and a Carousel for the projects.
-
-// Need to figure out how to make the menu page display and pop up on the screen so we can interact with it.
-
-// Once we click on a link have it scroll down to the correct section of the page. 
-
-// Solution it is the <!-- links to an element on the same page with an id= of "attr-href" -->
-/* <a href="#attr-href">
-Description of Same-Page Links
-</a> */
-// Need to target the id of the link so it can go there

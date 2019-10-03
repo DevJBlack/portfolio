@@ -30,6 +30,7 @@ const NavBar = () => {
             <AnchorLink onClick={() => displayEdit(true)} href='#Home'><p id='skills'>Home</p></AnchorLink>
             <AnchorLink onClick={() => displayEdit(true)} href='#Me'><p id='skills'>About Me</p></AnchorLink>
             <AnchorLink onClick={() => displayEdit(true)} href='#Skills'><p id='skills'>Skills</p></AnchorLink>
+            <AnchorLink onClick={() => displayEdit(true)} href='#Projects'><p id='skills'>Projects</p></AnchorLink>
           </div>
         </div>
       }
