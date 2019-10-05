@@ -19,7 +19,7 @@ const NavBar = () => {
     <div>
       <nav className="navigation">
         { edit ?  
-        <div>
+        <div className='labelHolder'>
           <label onClick={() => displayEdit(false)} htmlFor="toggle" className="label">&#9776;</label>
           <input type="checkbox" id="toggle"/>
         </div> 
