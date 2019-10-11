@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TeslaClonePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galleryHolder {
+  margin-top: 25px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 75vh;
+  width: 90vw;
+  padding-bottom: 10px;
+    & .galleryButtonHolder {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin: 10px;
+    }
+    & .galleryButtonHolder button {
+      width: 100px;
+      height: 30px;
+      background: transparent;
+      color: #001c57;
+      border: solid #001c57 2px;
+      cursor: pointer;
+    }
+    & .galleryButtonHolder button:hover {
+      background: white;
+    }
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background: transparent;
+    & .header {
+      color: #001c57;
+      text-decoration: underline #001c57;
+      font-size: 35px;
+    }
+    & .header:hover {
+      color: white;
+      text-decoration: underline white;
+    }
+}
