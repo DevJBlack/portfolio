@@ -9,7 +9,7 @@ export default (
   <Switch>
     <Route path='/' exact component={Home} />
     <Route path='/teslaclone' component={TeslaClone}/>
-    <Route path='managerapp' component={ManagerApp}/>
+    <Route path='/managerapp' component={ManagerApp}/>
     <Route path='/btlsrv' component={Btlsrv}/>
   </Switch>
 )
