@@ -4,6 +4,7 @@ import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/Skills'
 import NavBar from '../NavBar/NavBar'
 import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 import './Home.scss'
 
 const Home = () => {
@@ -23,11 +24,14 @@ const Home = () => {
       <div className='aboutMe' id='Me'>
         <AboutMe/>
       </div>
-      <div className='skills' id='Skills'>
+      <div className='skillsPage' id='Skills'>
         <Skills/>
       </div>
       <div className='projects' id='Projects'>
         <Projects/>
+      </div>
+      <div className='contactMe' id='Contact'>
+        <Contact/>
       </div>
         
     </div>

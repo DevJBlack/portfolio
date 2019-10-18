@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titleContact {
+  color: #001c57;
+  font-size: 18px;
+  text-decoration: underline #001c57;
+}
+
+.titlePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65vw;
+  height: 100vh;
+  background-color: lightgray;
+  margin: 100px;
+}

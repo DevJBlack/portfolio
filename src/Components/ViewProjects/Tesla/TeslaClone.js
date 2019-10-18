@@ -71,6 +71,10 @@ const TeslaClone = () => {
             ))}
           </Gallery>
       </div>
+      <div className='teslaText'>
+        <h1>Information:</h1>
+        <p>This project was a lot of fun to work on! It is a close replica to the original Tesla website. This project was built with HTML, CSS, CSS - in - JS, JavaScript, React, React-Redux, SQL, and Node. It is Mobile responsive, the other technologies used with this project are bcryptJs for password protection and Stripe for purchases.</p>
+      </div>
     </div>
   )
 }

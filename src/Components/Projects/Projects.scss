@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,10 @@
 .projectContainer {
   height: 100vh;
   width: 65vw;
-  background: lightgray;
+  background-image: linear-gradient(to top right,rgba(184, 223, 230, 0.7),rgba(185, 191, 247, 0.7)), url(../Assests/BackgroundForProject-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 25% bottom 75%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -41,6 +45,7 @@
       font-size: 18px;
       margin: 10px;
       font-weight: bold;
+      color: #001c57;
     };
     & p:hover {
       color: white;
@@ -50,16 +55,17 @@
       color: white;
       width: 125px;
       height: 35px;
-      background: black;
+      background: #001c57;
       border-radius: 100px;
       border: none;
     };
     & button:hover {
       background: white;
-      color: black;
+      color: #001c57;
       width: 123px;
       height: 35px;
-      border: 2px solid black;
+      border: 2px solid #001c57;
+      cursor: pointer;
 
     }
 }

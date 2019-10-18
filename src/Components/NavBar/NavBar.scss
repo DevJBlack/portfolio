@@ -38,18 +38,18 @@ body {
 }
 .menuPage{
   width: 50vw;
-  height: 35vh;
+  height: 40vh;
   border-radius: 50px;
-  background: rgba(255,255,255,.5) !important;
+  background: rgba(255,255,255,.5);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 5;
   flex-direction: column;
   position: absolute;
-  top: 225px;
+  top: 175px;
   right: 25%;
-  z-index:  !important;
+  z-index:  10000;
     .closeTab {
       color: white;
       font-size: 25px;
@@ -59,7 +59,8 @@ body {
       justify-content: flex-end;
     }
     & .closeTab:hover{
-      color:black;
+      color:#001c57;
+      cursor: pointer;
     }
 }
 
@@ -72,8 +73,8 @@ body {
   width: 75%;
   height: 75%;
   border-radius: 50px;
-  background: rgb(95, 95, 255) !important;
-  z-index: !important
+  background: rgb(95, 95, 255);
+  z-index: 10000;
 }
 
  nav a {

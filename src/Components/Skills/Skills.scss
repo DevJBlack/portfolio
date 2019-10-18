@@ -12,12 +12,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(to top right,rgba(184, 223, 230, 0.7),rgba(185, 191, 247, 0.7)), url(./SkillsBackground.jpg);
+  background-image: linear-gradient(to top right,rgba(184, 223, 230, 0.7),rgba(185, 191, 247, 0.7)), url(../Assests/SkillsBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   background-position: left 25% bottom 75%;
-  z-index: 5;
 }
 
 
