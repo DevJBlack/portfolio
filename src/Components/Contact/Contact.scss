@@ -8,15 +8,53 @@
   color: #001c57;
   font-size: 18px;
   text-decoration: underline #001c57;
+  margin: 15px;
 }
 
 .titlePage {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 65vw;
   height: 100vh;
-  background-color: lightgray;
-  margin: 100px;
+  background-image: linear-gradient(to top right,rgba(184, 223, 230, 0.7),rgba(185, 191, 247, 0.7)), url(../Assests/contactPicture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 100% center;
+  text-decoration: none;
+    & .titleContainer {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      color: #001c57;
+      width: 70%;
+      margin-left: 20%;
+    }
+    & .titleContainer label {
+      margin: 15px;
+      border-bottom: #001c57 solid 1px;
+      width: 65%;
+      flex-wrap: wrap;
+      color: #001c57;
+      font-weight: 800;
+    }
 }
+
+.phoneContact span {
+  margin-left: 50px;
+  color: #001c57;
+}
+
+.emailContact span {
+  margin-left: 62px;
+}
+
+.linkedInContact span {
+  margin-left: 40px;
+}
+
+.gitHubContact span {
+  margin-left: 50px;
+}
+
