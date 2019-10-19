@@ -73,18 +73,18 @@ body {
   width: 75%;
   height: 75%;
   border-radius: 50px;
-  background: rgb(95, 95, 255);
+  background: #34568d;
   z-index: 10000;
 }
 
  nav a {
    list-style: none;
    text-decoration: none;
-   color: #001c57;
+   color: white;
    margin: 10px;
    font-size: 20px;
   }
   
   nav a:hover {
-   color: white;
+   color: #001c57;
   }

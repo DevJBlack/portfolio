@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import frontPageTesla from '../Assests/HOMETESLAPROJECT.PNG'
-import dashBoard from '../Assests/Dashboard.png'
+import frontPageTesla from '../Assests/TeslaClone/HOMETESLAPROJECT.PNG'
+import dashBoard from '../Assests/Btlsrv/Dashboard.png'
 import './Projects.scss'
-import ManagerAppHome from '../Assests/ManagerAppHome.PNG'
+import ManagerAppHome from '../Assests/ManagerApp/Home.PNG'
 
 const Projects = () => {
 

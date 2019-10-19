@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btlsrvPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btlsrvText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50%;
+  margin-top: 100px;
+  flex-direction: column;
+  color: white;
+  margin: 50px;
+    & h1 {
+      color: #001c57;
+      text-decoration: underline #001c57;
+      font-size: 35px;
+      margin: 25px;
+    }
+  }
