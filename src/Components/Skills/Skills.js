@@ -7,6 +7,7 @@ import node from '../Assests/node.png'
 import css from '../Assests/css-3.png'
 import react from '../Assests/React-icon.png'
 import redux from '../Assests/redux.png'
+import Sass from '../Assests/Sass-logo.svg'
 
 const Skills = () => {
   return (
@@ -42,6 +43,10 @@ const Skills = () => {
           <div className='postman'>
             <p>Postman</p>
             <img width='100' src={postman} alt='postman'/>    
+          </div>
+          <div className='sass'>
+            <p>Sass</p>
+            <img width='125' src={Sass} alt='Sass'/>    
           </div>
         </div>
     </div>

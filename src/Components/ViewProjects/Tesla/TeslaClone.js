@@ -36,7 +36,12 @@ const TeslaClone = () => {
     }
   ]
 
-  useEffect(() => {
+    
+      
+    
+    
+    
+    useEffect(() => {
     const timer = setInterval(() => {
       if (index === 3) {
         setIndex(0);
@@ -44,9 +49,9 @@ const TeslaClone = () => {
         setIndex(prev => prev + 1)
       }
     }, 3000);
-    return () => clearInterval(timer);
+    return () => clearInterval(timer)
   }, [index])
-
+  
   
   
   return (
