@@ -61,7 +61,7 @@ const ManagerApp = () => {
       </div>
       <div className='managerText'>
         <h1>Information:</h1>
-        <p>This app is perfect</p>
+        <p>This is ManagerApp, it is a full CRUD app that uses React, React-Redux, scss, Javascript, node, hooks, and mySQL. It allows you to add an employee, that will go into the database and give an employee id number, after that you can update their information or delete their information. </p>
       </div>
     </div>
   )
