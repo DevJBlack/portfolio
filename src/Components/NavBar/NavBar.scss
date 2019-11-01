@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-}
 
 
 #skills  {
@@ -18,7 +15,7 @@ body {
   justify-content: flex-end;
   height: 100px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
 }
 
 .labelHolder {

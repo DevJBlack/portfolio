@@ -9,7 +9,7 @@ import './Home.scss'
 
 const Home = () => {
   return (
-    <div id='Home'>
+    <div className='homePage' id='Home'>
       <div className='home-pic'>
         <NavBar/>
         <div className='name-box'>
@@ -21,19 +21,21 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='aboutMe' id='Me'>
-        <AboutMe/>
+      <div className='tableContainer'>
+        <div className='aboutMe' id='Me'>
+          <AboutMe/>
+        </div>
+        <div className='skillsPage' id='Skills'>
+          <Skills/>
+        </div>
+        <div className='projects' id='Projects'>
+          <Projects/>
+        </div>
+        <div className='contactMe' id='Contact'>
+          <Contact/>
+        </div>
       </div>
-      <div className='skillsPage' id='Skills'>
-        <Skills/>
-      </div>
-      <div className='projects' id='Projects'>
-        <Projects/>
-      </div>
-      <div className='contactMe' id='Contact'>
-        <Contact/>
-      </div>
-        
+
     </div>
   )
 }
